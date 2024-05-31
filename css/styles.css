@@ -1,0 +1,47 @@
+/* This is my sanity check */
+
+/* body {
+  background-color: hotpink;
+} */
+
+* {
+  /* margin: 0; */
+  box-sizing: border-box;
+}
+
+/* inheritance */
+/* 
+  color
+  font-size
+  font-style
+  etc
+*/
+body {
+  font-family: system-ui;
+}
+
+/* This will make all h1s text on the page blue */
+h1 {
+  color: #51ac27;
+  /* font-size: 42px; */
+  font-size: 2rem;
+}
+
+.introduction {
+  font-style: italic;
+  background-color: aqua;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+  border-bottom: 2px solid green;
+}
+
+/* pseudo selector */
+a:hover {
+  color: hotpink;
+  border-bottom: 2px solid purple;
+}
